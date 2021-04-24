@@ -1,0 +1,105 @@
+body {
+   background: #0f0c29;  
+   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  }
+
+  #heading {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 90%;
+    height: 75px;
+    text-align: center;
+    color: rgb(32, 5, 0);
+    margin-left: auto;
+    margin-right: auto;
+    background: #7b4397; 
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  
+    background: linear-gradient(to right, #dc2430, #7b4397);
+    box-shadow: 0 8px 18px 0 rgba(224, 22, 22, 0.2), 0 6px 20px 0 rgba(15, 15, 15, 0.19);
+  
+  }
+
+  .movies_list{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+  .movies_list li{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.918);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    list-style-position: inside;
+
+  }
+  .movies_list li img{
+    width:  50%;
+    height: auto;
+    overflow: hidden;
+    object-fit: scale-down;
+    background-color:auto;
+    border-radius: 5%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .button  {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px;
+    border-radius: 20px;
+  }
+
+  .button  a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+  }
+
+  .button:hover{
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.37);
+  }
+
+  .movies_list li img:hover {
+    box-shadow: 0 0 25px 10px rgba(119, 117, 117, 0.37);
+    /* background-color: white; */
+  }
+  div.container :hover {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.37);
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #text{
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      /* text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.918); */
+      padding: 10px 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
